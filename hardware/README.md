@@ -25,38 +25,38 @@
 
 ```
 hardware/
-├── Scrum1_get_IMU_TMP_data_by_ble/
-│   └── BLE_DHT11_ICM20948/
-│       └── BLE_DHT11_ICM20948.ino
-│
-├── Scrum2_get_img_by_wifi/
-│
-├── Scrum3_get_img_by_wifi/
-│   └── ESP32_S3_cam_test/
-│       └── ESP32_S3_cam_test.ino
-│
-├── Scrum4_img_identify_car_yolo_in_pc/
-│   └── ESP32_S3_cam_test/
-│       ├── ESP32_S3_cam_test.ino
-│       └── car_detector.py
-│
-├── Scrum5_send_img_imu_tmp_by_ble/
-│   └── esp32s3_ble_cam_sensor/
-│       └── esp32s3_ble_cam_sensor.ino
-│
-├── Scrum6_send_img_imu_tmp_knnRoadType/
-│   ├── ble_viewer_with_c1c2c3.py
-│   └── full_crash_cam_knn_2core/
-│       ├── full_crash_cam_knn_2core.ino
-│       ├── knn_model.h
-│       └── knn_model1.h
-│
-└── Additional_Scrum7_capture_more_data/
-    ├── ble_viewer_with_c1c2c3_capture.py
-    └── esp32s3_ptw_fall_v3_demo/
-        ├── esp32s3_ptw_fall_v3_demo.ino
-        ├── knn_model.h
-        └── knn_modelneck1.h
+├─Additional(Scrum6)_capture_more_data
+│  │  ble_viewer_with_c1c2c3_capture.py
+│  │  
+│  └─esp32s3_ptw_fall_v3_demo
+│          esp32s3_ptw_fall_v3_demo.ino
+│          knn_model.h
+│          knn_modelneck1.h
+│          
+├─Scrum1_get IMU & TMP data(by ble)
+│  └─BLE_DHT11_ICM20948
+│          BLE_DHT11_ICM20948.ino
+│          
+├─Scrum2_Get the img by wifi
+│  └─ESP32_S3_cam_test
+│          ESP32_S3_cam_test.ino
+│          
+├─Scrum3_img identify car(yolo in pc)
+│  └─ESP32_S3_cam_test
+│          car_detector.py
+│          ESP32_S3_cam_test.ino
+│          
+├─Scrum4_send img_imu_tmp by ble
+│  └─esp32s3_ble_cam_sensor
+│          esp32s3_ble_cam_sensor.ino
+│          
+└─Scrum5_send img_imu_tmp_knnRoadType
+    │  ble_viewer_with_c1c2c3.py
+    │  
+    └─full_crash_cam_knn_2core
+            full_crash_cam_knn_2core.ino
+            knn_model.h
+            knn_model1.h
 ```
 
 ## 開發環境
